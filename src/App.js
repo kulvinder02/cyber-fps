@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import HeroSection from './component/HeroSection'
+import GamePlaysection from './component/GamePlaysection'
+import WhatCyber from './component/WhatCyber'
+import CryptoStraps from './component/CryptoSection'
+import TeamSection from './component/TeamSection'
+import LastSection from './component/LastSection'
+import Footer from './component/Footter'
+import Accrdnsection from './component/AccrdnSection'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HeroSection/>
+      <GamePlaysection/>
+      <WhatCyber/>
+      <CryptoStraps/>
+      <TeamSection/>
+       <Accrdnsection/>
+      <LastSection/>
+      <Footer/>
+
     </div>
   );
 }
